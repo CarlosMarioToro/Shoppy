@@ -18,12 +18,12 @@ const AppRoutes = () => {
     { path: '/furnitures', element: <Home /> },
     { path: '/toys', element: <Home /> },
     { path: '/others', element: <Home /> },
-    { path: '/myaccount', element: <MyAccount /> },
-    { path: '/signin', element: <SignIn /> },
-    { path: '/myorders/:id', element: <MyOrder /> },
-    { path: '/myorder', element: <MyOrder /> },
-    { path: '/myorders', element: <MyOrders /> },
-    { path: '/myorders/last', element: <MyOrder /> },
+    { path: '/my-account', element: <MyAccount /> },
+    { path: '/sign-in', element: <SignIn /> },
+    { path: '/my-orders/:id', element: <MyOrder /> },
+    { path: '/my-order', element: <MyOrder /> },
+    { path: '/my-orders', element: <MyOrders /> },
+    { path: '/my-orders/last', element: <MyOrder /> },
     { path: '/*', element: <NotFound /> },
   ])
 
