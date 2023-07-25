@@ -31,7 +31,7 @@ const Navbar = () => {
             return (
                 <>
                     <li className='text-black/60'>
-                        ctoroz59@gmail.com
+                        {parsedAccount?.email}
                     </li>
                     <li>
                         <NavLink
@@ -112,7 +112,7 @@ const Navbar = () => {
                 <li>
                     <NavLink 
                         to='/furnitures'
-                        onClick={() => context.setSearchByCategory('furnitures')}
+                        onClick={() => context.setSearchByCategory('furniture')}
                         className={({isActive}) =>
                         isActive ? activeStyle : undefined
                     }>
